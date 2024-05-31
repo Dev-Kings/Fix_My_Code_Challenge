@@ -11,6 +11,21 @@ $
 ```
 
 ### Ruby
+```
+Something is going wrong….
+
+$ ruby 2-sort.rb 12 41 2 C 9 -9 31 fun -1 32
+31
+32
+12
+41
+2
+9
+-9
+-1
+$
+It should be sorted well in ascending.
+```
 ### Javascript
 ```
 $ ./1-print_square.js 4
