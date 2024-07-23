@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-class square():
 
+class square():
     def __init__(self, **kwargs):
         self.width = kwargs.get('width', 0)
         self.height = self.width
@@ -38,6 +38,7 @@ class square():
 
     def __str__(self):
         return ("{}/{}".format(self.width, self.height))
+
 
 if __name__ == "__main__":
     s = square(width=12)
