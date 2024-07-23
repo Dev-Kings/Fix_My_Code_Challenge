@@ -13,10 +13,12 @@ class square():
 
     @property
     def width(self):
+        """ Getting width"""
         return (self._width)
 
     @width.setter
     def width(self, value):
+        """ Setting width"""
         if value < 0:
             raise ValueError("Width must be a non-negative value")
         self._width = value
@@ -24,10 +26,12 @@ class square():
 
     @property
     def height(self):
+        """Getting value of height"""
         return (self._height)
 
     @height.setter
     def height(self, value):
+        """ Setting height"""
         if value < 0:
             raise ValueError("Height must be a non-negative value")
         self._width = value
@@ -42,6 +46,7 @@ class square():
         return (self.width * 4)
 
     def __str__(self):
+        """String representation of class"""
         return ("{}/{}".format(self.width, self.height))
 
 
