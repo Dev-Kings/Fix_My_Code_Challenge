@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Square module with functions to compute area and perimeter.
+square module with functions to compute area and perimeter.
 """
 
 
