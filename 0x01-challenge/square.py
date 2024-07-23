@@ -4,7 +4,7 @@ Square module with functions to compute area and perimeter.
 """
 
 
-class square():
+class square:
     """ Class square with area and perimeter calculation functions.
     """
     def __init__(self, **kwargs):
